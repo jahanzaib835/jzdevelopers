@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Css Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <!--javascrip  links -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+
+  <title>Bootstrap</title>
+</head>
+<Style>
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .clr {
+    color: white;
+  }
+</Style>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JZ Developers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="Introduction.html">Home <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="services.html">Services <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="gallary.html">Gallery <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" class="clr" href="portfoilo.html">Portfolio</a>
+        </li>
+        
+        <li class="nav-item active">
+          <a class="nav-link enable" href="contact.html" style="text-transform: capitalize;">contact us</a>
+        </li>
+      </ul>
+      
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <!--Contact Us section -->
+  <section class="main_heading bg-light my-5 pt-3">
+    <div class="">
+      <h1 class="display-4">Contact Us</h1>
+      <hr class="w-25 mx-auto" />
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+            <form>
+
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">What we can help you with?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option> </option>
+                  <option> Wen Development </option>
+                  <option>Desinging</option>
+                  <option>Programming</option>
+                  <option>Software Testing</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputName" class="form-label"> Your Name</label>
+                <input type="name" class="form-control" id="exampleInputname" aria-describedby="namelHelp">
+
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputnumber" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              </div>
+              
+              <div class="mb-3">
+                <label class="pr-4">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                    value="option3">
+                  <label class="form-check-label" for="inlineRadio3">Transgender</label>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Select File</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div style="text-align:center;">
+                <button style="width:400px" type="submit" class="btn1 btn-primary">Submit</button>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <form>
+
+
+      </form>
+
+    </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<section class="main_heading my-5 py-2 ofter_style">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xxl-12 col-12 py-5 text-center">
+        <h1>My portfoilo</h1>
+
+        <p style="text-align: center;">Hardworking always payoff</p>
+
+        <button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">More Info</button>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- model section here for you-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Jz Developers Videos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        lets Watch my Vadio
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://www.fiverr.com/jz_workplace">
+          <button type="button" class="btn btn-primary">Check Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+   
+  <footer class="bg-secondary text-center text-white">
+    <p> Ⓒ Copyright 2022 JZ Developers</p>
+  </footer>
+
+
+  <script type="text/javascript">
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+
+</body>
+
+</html>
